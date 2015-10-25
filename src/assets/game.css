@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'kenvector_futureregular';
+    src: url('fonts/kenvector_future-webfont.eot');
+    src: url('fonts/kenvector_future-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/kenvector_future-webfont.woff2') format('woff2'),
+    url('fonts/kenvector_future-webfont.woff') format('woff'),
+    url('fonts/kenvector_future-webfont.ttf') format('truetype'),
+    url('fonts/kenvector_future-webfont.svg#kenvector_futureregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* { padding: 0; margin: 0; }
+html, body { width: 100%; height: 100%; }
+body {
+    background-color: #ff9900;
+    overflow: hidden;
+    font-family: kenvector_futureregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+canvas { position: absolute; left: 50%; top: 50%; }
